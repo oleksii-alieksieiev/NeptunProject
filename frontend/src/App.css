@@ -1,0 +1,121 @@
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #374151;
+}
+
+/* Formular */
+
+.customer-form {
+  background-color: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Buttons */
+
+button {
+  padding: 9px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-button,
+.save-button {
+  background-color: #2563eb;
+  color: white;
+}
+
+.edit-button {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.delete-button {
+  background-color: #dc2626;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Kunden */
+
+.customer-card {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.customer-card strong {
+  font-size: 18px;
+  color: #111827;
+}
+
+.customer-card p {
+  margin: 8px 0;
+  color: #4b5563;
+}
+
+.edit-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
