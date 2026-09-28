@@ -55,29 +55,3 @@ NeptunProject/
 │
 ├── .gitignore
 └── README.md
-
-Installation Backend
-cd backend
-npm install
-
-Eine .env-Datei mit den MySQL-Zugangsdaten muss lokal erstellt werden.
-
-Eine .env-Datei mit den MySQL-Zugangsdaten muss lokal erstellt werden.
-
-Beispiel:
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=your_database
-
-Backend starten:
-node server.js
-
-Frontend
-
-cd frontend
-npm install
-npm run dev
-Das Frontend kommuniziert über die REST API mit dem Node.js-Backend.
-```
